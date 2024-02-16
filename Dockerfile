@@ -1,11 +1,5 @@
-# Use an official OpenJDK runtime as a parent image
 FROM openjdk:11
+COPY ./target/ScientificCalculator-1.0-SNAPSHOT.jar ./
+WORKDIR ./
+CMD ["java","-jar","ScientificCalculator-1.0-SNAPSHOT.jar"]
 
-# Set the working directory in the container
-WORKDIR /usr/src/app
-
-# Copy the application JAR file into the container
-COPY target/Calculator-1.0-SNAPSHOT.jar .
-
-# Specify the command to run your application
-CMD ["java", "-jar", "Calculator-1.0-SNAPSHOT.jar"]
