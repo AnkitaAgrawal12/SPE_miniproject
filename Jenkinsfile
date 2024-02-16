@@ -7,14 +7,6 @@ pipeline {
     }
 
     stages {
-        // stage('Cleanup') {
-        //     steps {
-        //         script{   
-        //         // Remove specific Docker containers
-        //         sh 'docker rm -f scientificcalculator'
-        //         }
-        //     }
-        // }
         
         stage('Checkout') {
             steps {
