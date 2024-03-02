@@ -6,9 +6,9 @@ public class ScientificCalculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+    
         while (true) {
-            System.out.println("Scientific Calculator Menu:-");
+            System.out.println("Scientific Calculator Menu:");
             System.out.println("1. Addition (a+b)");
             System.out.println("2. Subtraction (a-b)");
             System.out.println("3. Multiplication (a*b)");
