@@ -44,8 +44,6 @@
 
 
     <dependencies>
-        <!-- Add any dependencies you need, e.g., JUnit -->
-        <!-- Example JUnit dependency -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
